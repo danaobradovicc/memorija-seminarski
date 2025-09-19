@@ -1,0 +1,17 @@
+.kontejner {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 30px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.8;
+  background-color: rgba(255, 255, 255, 0.5); /* polu-providno */
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.kontejner:hover {
+  border-radius: 40px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}

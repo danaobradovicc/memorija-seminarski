@@ -1,0 +1,19 @@
+.custom-dugme {
+  padding: 18px 42px;
+  font-size: 20px;
+  background: linear-gradient(145deg, #a8caba, #91b8a3);
+  color: #2e3d49;
+  border: 2px solid #7a9e9f;
+  border-radius: 15px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Georgia', serif;
+  text-decoration: none;
+}
+
+.custom-dugme:hover {
+  background: linear-gradient(145deg, #91b8a3, #7da69a);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
