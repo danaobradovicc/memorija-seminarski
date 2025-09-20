@@ -50,4 +50,5 @@ networks:
   app-net:
 
 volumes:
-  ${LOG_VOLUME}:
+  nginxlogs:
+
